@@ -17,7 +17,7 @@
 /* Enable compact findbar, similar to Smaller Compact Mode by n7itro */
 @media (-moz-bool-pref: "uc.floatingfindbar.compact.enabled") {
   .browserContainer > findbar {
-    width: 75vw !important;
-    margin-left: calc( 12.5vw - var(--zen-element-separation) ) !important;
+    width: 75% !important;
+    margin-left: calc( 12.5% - var(--zen-element-separation) ) !important;
   }
 }
